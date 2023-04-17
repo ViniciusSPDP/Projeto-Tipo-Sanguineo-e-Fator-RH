@@ -1,0 +1,56 @@
+circle{
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 7;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: whitesmoke;
+}
+circle:nth-child(2){
+    transition: stroke-dashoffset 0.8s;
+    stroke: blue;
+}
+h1{
+    text-align: center;
+}
+.porcentagemR{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.porcentagemr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.box4{
+    position: absolute;
+    top: 160%;
+    left: 35%;
+    transform: translate(-50%,-50%)
+}
+.box5{
+    position: absolute;
+    top: 160%;
+    left: 55%;
+    transform: translate(-50%,-50%)
+}

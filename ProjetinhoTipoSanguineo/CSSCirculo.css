@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.box1{
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    transform: translate(-50%,-50%)
+}
+
+.box{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    transform: translate(-50%,-50%)
+}
+
+.box2{
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    transform: translate(-50%,-50%)
+}
+.box3{
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    transform: translate(-50%,-50%)
+}
+.box-circulo{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+circle{
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 7;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: whitesmoke;
+}
+circle:nth-child(2){
+    transition: stroke-dashoffset 4s;
+    stroke: #f28123;
+}
+h1{
+    text-align: center;
+}
+.porcentagemA{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.porcentagemB{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.porcentagemAB{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.porcentagemO{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+
+.porcentagemR{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.porcentagemr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
